@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score
 from scipy.spatial import distance
 
 
+# Computes the distance between 2 points.
 def euc(a, b):
     return distance.euclidean(a, b)
 
